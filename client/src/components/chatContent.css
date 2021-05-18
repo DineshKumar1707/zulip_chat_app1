@@ -1,0 +1,165 @@
+.main__chatcontent {
+    flex-grow: 1;
+    padding: 2px 2px;
+    border-right: 1px solid #ebe7fb;
+  }
+  .content__header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebe7fb;
+  }
+  .current-chatting-user {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .current-chatting-user p {
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 10px;
+  }
+  .content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 585px;
+  }
+  .settings .btn-nobg {
+    color: #000;
+  }
+  .content__body {
+    height: 405px;
+    width: 585px;
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: #fff;
+  }
+  .chat__items {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+  .sender {
+    margin-left: auto;
+    color: #fff;
+  }
+  .receiver {
+    margin-right: auto;
+    color: #000;
+  }
+  .sender, .receiver {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    min-width: auto;
+    padding: 10px;
+  }
+  .sender > .chat__item__content {
+    background-color: #794DF5;
+    border-radius: 10px 10px 0 10px;
+    padding: 5px;
+  }
+  .receiver > .chat__item__content {
+    background-color: #EAEAEA;
+    border-radius: 10px 10px 10px 0;
+    padding: 5px;
+  }
+  .chat__msg {
+    max-height: 10vh;
+  }
+  .chat__meta {
+    color: #000;
+  }
+  .sender .chat__meta {
+    text-align: end;
+  }
+  .chat__meta span {
+    font-size: 12px;
+  }
+  .content__footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 585px;
+    padding-top: 2px;
+    background-color: #fff;
+  }
+  .sendNewMessage {
+    background-color: #fff;
+    width: 480px;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #ccc9d1;
+    border-radius: 20px;
+  }
+  .sendNewMessage button {
+    width: 36px;
+    height: 36px;
+    background-color: #ecefff;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4665ff;
+    padding: 0;
+    border-radius: 5px;
+    line-height: 36px;
+    transition: all 0.3s cubic-bezier(0.88, 0.19, 0.37, 1.11);
+  }
+  .sendNewMessage button:hover {
+    transform: scale(1.2);
+  }
+  .sendNewMessage button i {
+    display: block;
+    color: #000;
+  }
+  .sendNewMessage input {
+    flex-grow: 1;
+    padding: 0 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  #sendMsgBtn {
+    background-color: #794DF5;
+    color: #fff;
+  }
+  .container__time span{
+    padding-top: 200px;
+  }
+  .send_button {
+    padding-left: 10px;
+  }
+  #sendMessage {
+    font-size: 28px;
+    background-color: #794DF5;
+    color: #fff;
+    height: 50px;
+    border-radius: 60%;
+    float: right;
+  }
+  .receiver_online {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    border-radius: 55%;
+    background-color: rgb(51, 204, 5);
+  }
+  .receiver_status {
+    padding-left: 20px;
+    font-size: 15px;
+  }
+  .container_name_online {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+  }
